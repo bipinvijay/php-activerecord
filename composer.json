@@ -1,7 +1,7 @@
 {
-    "name": "php-activerecord/php-activerecord",
+    "name": "bipinvijay/php-activerecord",
     "type": "library",
-    "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern.",
+    "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern. Cloned from jpfuentes2/php-activerecord. All credits goes to the original author.",
     "keywords": ["activerecord", "orm"],
     "homepage": "http://www.phpactiverecord.org/",
     "license": "MIT",
