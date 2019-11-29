@@ -1667,7 +1667,9 @@ class Model
 		}
 		$results = count($list);
 
-		if ($results != ($expected = count($values)))
+		// Implement the Php 7.3 is_countable() method 
+		// to avoid the count() method throws an error for non-array values.
+		if ($results != ($expected = (\is_countable($values) ? count($values) : 1)))
 		{
 			$class = get_called_class();
 			if (is_array($values))
